@@ -1,0 +1,8 @@
+# Core application dependencies
+pandas
+requests
+jsonschema
+openpyxl  # pandas needs this for .xlsx files
+
+# Packaging tool
+pyinstaller
