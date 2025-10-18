@@ -66,7 +66,7 @@ SHEET_TO_GACHA_TYPE = {
 
 # 字典下载配置
 DICT_API_URL_TEMPLATE = 'https://api.uigf.org/dict/{game}/{lang}.json'
-SCHEMA_URL = 'https://raw.githubusercontent.com/UIGF-org/UIGF-SchemaVerify/refs/heads/master/src/source/uigf-4.0-schema.json'
+SCHEMA_URL = 'https://raw.githubusercontent.com/UIGF-org/UIGF-SchemaVerify/refs/heads/master/src/source/uigf-4.1-schema.json'
 
 def get_message(lang, key):
     return MESSAGES[lang].get(key, '')
